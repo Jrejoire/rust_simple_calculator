@@ -58,7 +58,7 @@ fn main() -> Result<(), io::Error> {
     let mut split_expression = Vec::new();
 
     for borrowed in borrowed_split_expression {
-        split_expression.push(String::from(borrowed))
+        split_expression.push(String::from(borrowed));
     }
 
     while split_expression.len() > 1 {
